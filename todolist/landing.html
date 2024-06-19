@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="landing.css">
+  <link rel="icon" type="image/x-icon" href="tasks.png">
+  <title>To Do List</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="index.html">
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+          <dotlottie-player src="https://lottie.host/656fb5ea-9d85-411e-948b-8f9f98d61ace/MY618bydZr.json" background="transparent" speed="1" style="width: 70px; height: 70px;" loop autoplay></dotlottie-player>
+        </a>
+      </div>
+      <a href="index.html" class="nav__title">To Do List</a>
+      <div class="nav__links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="todo-list">
+      <h1>My To-Do List</h1>
+      <form class="todoform">
+        <input type="text" class="newtodo" placeholder="Add a new to-do">
+        <button type="submit">Add</button>
+      </form>
+      <ul class="todos-list"></ul>
+    </div>
+  </div>
+</body>
+</html>

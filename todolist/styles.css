@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1da2b; /* Background color */
+    /* background:url(background.jpg); */
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notepad {
+    background-color: #3c0e57; /* Black color for the notepad header */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 500px; /* Width of the notepad */
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px; /* Height of the textarea */
+    resize: none;
+    border: none;
+    background-color: transparent;
+    color: #ffffff; /* Text color */
+    font-size: 16px; /* Font size */
+    line-height: 1.5; /* Line height */
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deadline {
+    color: #fff; /* Text color */
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="date"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
